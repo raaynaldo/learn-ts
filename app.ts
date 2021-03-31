@@ -1,11 +1,13 @@
 const person: {
     name: string,
     age: number,
-    hobbies: string[]
+    hobbies: string[],
+    role: [number, string] //tuples
 } = {
     name: 'Raynaldo',
     age: 30,
-    hobbies: ['Sports', 'Hiking']
+    hobbies: ['Sports', 'Hiking'],
+    role: [2, 'author'] //tuples
 };
 
 let favoriteActivities: string[];
