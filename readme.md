@@ -8,3 +8,8 @@ tsc app.ts
 ```
 tsc app.ts -w
 ```
+
+## init typescript project
+```
+tsc --init
+```
